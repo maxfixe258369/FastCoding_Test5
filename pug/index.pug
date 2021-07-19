@@ -1,0 +1,124 @@
+doctype html
+html(lang="zxx")
+  include head.pug
+
+  body 
+    include header.pug
+    
+    main
+      section.section-intro
+        .section-intro-inner 
+          h2.intro-title.title 
+            | So begins a new age of knowledge
+          .intro-text
+            p Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. Vivamus at arcu sem.
+          a.button-project PROJECTS
+      
+      section.section-service
+        .section-service-inner
+          h2.service-title OUR SERVICES
+          p.service-text.title
+            | Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus eleifend. Curabitur laoreet nisl eget rutruml auctor. Vestibulum ante ipsum primis in faucibus orcip luctus et ultrices posuere cubilia curae cras ligula.
+          .service-image 
+            img(src="image/services.png" alt="Services Image")
+
+      section.section-works
+        .section-works-inner
+          h2.works-title OUR WORKS
+          p.works-text.title
+            | Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus eleifend. Curabitur laoreet nisl eget rutruml auctor. Vestibulum ante ipsum primis in faucibus orcip luctus et ultrices posuere cubilia curae cras ligula.
+
+            
+      section.section-map
+        #London.section-map-inner.tabcontent.active
+          .map-image
+            img(src='image/map.png' alt='Map Image' loading='lazy')
+          .map-text
+            h2.title-content LONDON
+            h3.address 180-182 REGENT STREET, LONDON, W1B 5BT
+            p.text-content
+              | Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec tempor odio. Fusce posuere nunc iaculis ligula viverra iaculis. Aliquam erat volutpat.
+            address.information
+              .location
+                i.fa.fa-map-marker(aria-hidden='true')
+                span 180-182 REGENT STREET, LONDON, W1B 5BT
+              .phone
+                i.fa.fa-phone(aria-hidden='true')
+                span 0123-456-789
+              .site
+                i.fa.fa-link(aria-hidden='true')
+                span www.yourwebsite.com 
+              .mail
+                i.fa.fa-envelope-o(aria-hidden='true')
+                span support@yourwebsite.com
+              .time
+                i.fa.fa-clock-o(aria-hidden='true')
+                span Monday-Friday: 9am to 6pm Saturday: 10am to 6pm Sunday: 10am to 2pm
+            .icon
+              img.facebook-icon(src='image/facebook_icon.png' alt='Facebook icon' loading='lazy')
+              img.twitter-icon(src='image/twitter_icon.png' alt='Twitter icon' loading='lazy')
+              img.instagram-icon(src='image/instagram.png' alt='Instagram icon' loading='lazy')
+              img.pinterest-icon(src='image/pinterest_icon.png' alt='Pinterest icon' loading='lazy')
+        #NewYork.section-map-inner.tabcontent.unactive
+          .map-image
+            img(src='image/map.png' alt='Map Image' loading='lazy')
+          .map-text
+            h2.title-content NEW YORK
+            h3.address 109 COLUMBUS CIRCLE, NEW YORK, NY 10023
+            p.text-content
+              | Nunc non posuere nisl. Etiam finibus vel dui nec lobortis. Aliquam egestas, sem quis condimentum venenatis, erat leo fermentum dolor, non sollicitudin massa mi eu nibh. Nullam vitae aliquam dui, non sodales nisl.
+            address.information
+              .location
+                i.fa.fa-map-marker(aria-hidden='true')
+                span 109 COLUMBUS CIRCLE, NEW YORK, NY 10023
+              .phone
+                i.fa.fa-phone(aria-hidden='true')
+                span 0123-456-789
+              .site
+                i.fa.fa-link(aria-hidden='true')
+                span www.yourwebsite.com 
+              .mail
+                i.fa.fa-envelope-o(aria-hidden='true')
+                span support@yourwebsite.com
+              .time
+                i.fa.fa-clock-o(aria-hidden='true')
+                span Monday-Friday: 9am to 6pm Saturday: 10am to 6pm Sunday: 10am to 2pm
+            .icon
+              img.facebook-icon(src='image/facebook_icon.png' alt='Facebook icon' loading='lazy')
+              img.twitter-icon(src='image/twitter_icon.png' alt='Twitter icon' loading='lazy')
+              img.instagram-icon(src='image/instagram.png' alt='Instagram icon' loading='lazy')
+              img.pinterest-icon(src='image/pinterest_icon.png' alt='Pinterest icon' loading='lazy')
+        #Paris.section-map-inner.tabcontent.unactive
+          .map-image
+            img(src='image/map.png' alt='Map Image' loading='lazy')
+          .map-text
+            h2.title-content PARIS
+            h3.address 2133 RUE SAINT-HONORE, 75001 PARIS
+            p.text-content
+              | Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus eleifend. Curabitur laoreet nisl eget rutruml auctor. Vestibulum ante ipsum primis in faucibus orcip luctus et ultrices posuere cubilia curae cras ligula.
+            address.information
+              .location
+                i.fa.fa-map-marker(aria-hidden='true')
+                span 2133 RUE SAINT-HONORE, 75001 PARIS
+              .phone
+                i.fa.fa-phone(aria-hidden='true')
+                span 0123-456-789
+              .site
+                i.fa.fa-link(aria-hidden='true')
+                span www.yourwebsite.com 
+              .mail
+                i.fa.fa-envelope-o(aria-hidden='true')
+                span support@yourwebsite.com
+              .time
+                i.fa.fa-clock-o(aria-hidden='true')
+                span Monday-Friday: 9am to 6pm Saturday: 10am to 6pm Sunday: 10am to 2pm
+            .icon
+              img.facebook-icon(src='image/facebook_icon.png' alt='Facebook icon' loading='lazy')
+              img.twitter-icon(src='image/twitter_icon.png' alt='Twitter icon' loading='lazy')
+              img.instagram-icon(src='image/instagram.png' alt='Instagram icon' loading='lazy')
+              img.pinterest-icon(src='image/pinterest_icon.png' alt='Pinterest icon' loading='lazy')
+
+    include footer.pug
+    
+    
+    script(src='js/script.js')
